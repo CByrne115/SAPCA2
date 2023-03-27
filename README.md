@@ -19,7 +19,6 @@ To run a MySQL database container with the name `db` and a root password of `my-
 	```
 	docker run -d --name db --network my-network -e MYSQL_ROOT_PASSWORD=my-secret-password mysql:latest
 	```
-	
 Replace `my-network` with the name of the network you created in the previous step.
 
 ### Run phpMyAdmin container
